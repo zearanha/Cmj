@@ -39,7 +39,7 @@ function clickZap() {
   gsap.to(button, { scale: 0.9, duration: 0.2 });
 
   setTimeout(() => {
-      const numero = "5575982489610";
+      const numero = "5575981576802";
       const mensagem = "Olá, quero Fazer uma doação para a Casa Jesus Maria José";
       const url = `https://api.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(mensagem)}`;
       window.open(url, "_blank");
